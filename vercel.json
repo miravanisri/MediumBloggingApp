@@ -1,10 +1,8 @@
 {
-    
-
-"routes":[
+"rewrites":[
 {
 
-"source":"/Frontend/src",
+"source":"/(.*)",
 "destination":"/"
 
 
