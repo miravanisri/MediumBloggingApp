@@ -95,9 +95,13 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
             console.log(jwt);
             localStorage.setItem("token", "bearer " + jwt.token);
             navigate("/blogs");
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         } catch (error: any) {
             if (error.response && error.response.data) {
+               
                 const { message } = error.response.data;
+                console.log(message)
+
 
                 // Backend validation for sign-in errors
                 if (error.response.status === 404) {
