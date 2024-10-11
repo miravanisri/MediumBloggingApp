@@ -1,5 +1,7 @@
 {
-"rewrites":[
+    
+
+"routes":[
 {
 
 "source":"/(.*)",
