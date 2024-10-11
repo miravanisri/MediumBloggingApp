@@ -4,7 +4,7 @@
 "routes":[
 {
 
-"source":"/(.*)",
+"source":"/Frontend/src",
 "destination":"/"
 
 
