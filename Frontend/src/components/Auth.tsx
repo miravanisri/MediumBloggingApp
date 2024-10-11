@@ -100,7 +100,7 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
             if (error.response && error.response.data) {
                
                 const { message } = error.response.data;
-                console.log(message)
+                console.log("message:"+message)
 
 
                 // Backend validation for sign-in errors
